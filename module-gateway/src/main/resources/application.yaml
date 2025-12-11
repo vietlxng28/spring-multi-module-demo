@@ -1,0 +1,5 @@
+spring:
+    profiles:
+        active: gateway
+    config:
+        import: optional:classpath:application.yaml,optional:classpath:application-gateway.yaml

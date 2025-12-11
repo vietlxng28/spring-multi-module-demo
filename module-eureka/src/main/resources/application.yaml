@@ -1,0 +1,5 @@
+spring:
+    profiles:
+        active: eureka
+    config:
+        import: optional:classpath:application.yaml,optional:classpath:application-eureka.yaml

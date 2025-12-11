@@ -1,0 +1,5 @@
+spring:
+    profiles:
+        active: user
+    config:
+        import: optional:classpath:application.yaml,optional:classpath:application-user.yaml

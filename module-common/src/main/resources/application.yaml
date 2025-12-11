@@ -1,0 +1,5 @@
+spring:
+    profiles:
+        active: common
+    config:
+        import: optional:classpath:application.yaml,optional:classpath:application-common.yaml

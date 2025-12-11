@@ -1,0 +1,5 @@
+spring:
+    profiles:
+        active: order
+    config:
+        import: optional:classpath:application.yaml,optional:classpath:application-order.yaml
